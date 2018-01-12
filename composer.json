@@ -41,5 +41,6 @@
         "phpcs": "php vendor/bin/php-cs-fixer --diff --dry-run -v fix",
         "phpunit": "php vendor/bin/phpunit"
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
