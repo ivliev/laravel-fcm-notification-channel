@@ -11,13 +11,16 @@
     "authors": [{
         "name": "Evgeni Razumov",
         "email": "razumov.evgeni@gmail.com"
+        },{
+        "name": "Andrej Ivliev",
+        "email": "ivliev@dtele.de"
     }],
     "require": {
         "php": ">=5.5.9",
-        "brozot/laravel-fcm": "dev-master",
+        "brozot/laravel-fcm": "^1.2",
         "illuminate/notifications": "~5.3",
-        "illuminate/queue": "~5.1",
-        "illuminate/support": "~5.1"
+        "illuminate/queue": "~5.3",
+        "illuminate/support": "~5.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~1.12.2",
@@ -38,11 +41,5 @@
         "phpcs": "php vendor/bin/php-cs-fixer --diff --dry-run -v fix",
         "phpunit": "php vendor/bin/phpunit"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
